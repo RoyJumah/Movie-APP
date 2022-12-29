@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import _ from 'lodash';
 import './style.css';
 
