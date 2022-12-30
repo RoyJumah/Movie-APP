@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Sans+Georgian:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap');
+@import 'config';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $primary-color;
+  font-family: $font-stack;
+  margin: 0;
+}
+
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $secondary-color;
+}
+
+.search {
+  background-color: transparent;
+  border: 2px solid $secondary-color;
+  border-radius: 50px;
+  font-family: $font-stack;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+
+  &::placeholder {
+    color: #7378c5;
+  }
+
+  &:focus {
+    outline: none;
+    background-color: $primary-color;
+  }
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.overview {
+  background-color: #fff;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translate(101%);
+  overflow-y: auto;
+  transition: transform 0.3s ease-in;
+}
+
+@import 'utilities';
