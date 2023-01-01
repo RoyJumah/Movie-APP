@@ -1,9 +1,7 @@
 
 # Project Name
-- Movie App
-
-> Description the project.
--This is an application built with HTML, Sass, JavaScript and IMDB API that displays the latest trending movies and allows the user to search, rate, and comment on a particular movie.
+### Movie App
+- This is an application built with HTML, Sass, JavaScript and IMDB API that displays the latest trending movies and allows the user to search, rate, and comment on a particular movie.
 
 
 ## Built With
@@ -53,12 +51,6 @@ You are all set up!
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Roy Jumah**
-
-- GitHub: [@RoyJumah](https://github.com/RoyJumah)
-- Twitter: [@_royissues](https://twitter.com/_royissues)
-- LinkedIn: [@roy_jumah](https://www.linkedin.com/in/roy-jumah/)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -73,16 +65,11 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would to thank ```JavaScript Brad Traversy ``` for providing the materials that enabled me to complete this project
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- I would to thank ``` Brad Traversy ``` for providing the materials that enabled me to complete this project
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./license) licensed
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
