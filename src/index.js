@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-unresolved
-
+/* eslint-disable */
 import './css/style.css';
 
 const API_URL =
@@ -11,7 +11,7 @@ const main = document.getElementById('main');
 const form = document.getElementById('form');
 const search = document.getElementById('search');
 
-//Get initial updates
+// Get initial updates
 
 getMovies(API_URL);
 
@@ -53,11 +53,11 @@ function showMovies(movies) {
 function getClassByRate(vote) {
   if (vote >= 8) {
     return 'green';
-  } else if (vote >= 5) {
-    return 'orange';
-  } else {
-    return 'red';
   }
+  if (vote >= 5) {
+    return 'orange';
+  }
+  return 'red';
 }
 
 form.addEventListener('submit', e => {
